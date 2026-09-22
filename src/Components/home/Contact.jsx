@@ -22,7 +22,6 @@ const Contact = () => {
               trigger:sectionReference.current.querySelector(".contact-card"),
               start: "top 90%",
               end:"top 40%",
-              markers:true,
                 
               scrub:2,
                 
