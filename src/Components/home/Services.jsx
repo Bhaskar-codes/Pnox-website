@@ -71,7 +71,7 @@ counters.forEach((counter) => {
         ease:"power1.out",
         scrub:2,
         stagger: 0.2,
-        markers:true
+      
     }
 
 })
