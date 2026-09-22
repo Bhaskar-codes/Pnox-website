@@ -3,6 +3,8 @@ import React, { useRef } from 'react'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger.js'
 import { useLayoutEffect } from 'react'
+import starImg from "../../images/800x800_card-image-01.webp" 
+import starImg2 from "../../images/800x800_card-image-03.webp"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -94,7 +96,7 @@ tl2.to(".servicebox2",{
             <div className='h-[400px]  rounded-[30px] font-bold bg-[#9f8be7] p-6 pl-0'>
                   <div className='grid h-full grid-cols-[1.5fr_1fr] '>
                       <div>
-                        <img className='pl-0  pt-0 object-cover ' src="../src/images/800x800_card-image-01.webp" alt="" srcset="" />
+                        <img className='pl-0  pt-0 object-cover ' src={starImg} alt="" srcset="" />
                       </div>
                     <div className='flex flex-col items-center justify-between font-[font1] text-[var(--text)]'>
                         <div className='flex flex-col items-center justify-center gap-3 '>
@@ -147,7 +149,7 @@ tl2.to(".servicebox2",{
                         <button className=' font=[font1] mb-20 rounded-full text-white border-2 border-white px-8 py-4 cursor-pointer text-4xl flex text-nowrap items-center gap-4  '>Apply Now <span><ArrowUpRight className='size-12'/></span></button>
                     </div>
                     <div>
-                        <img className='h-full object-cover ' src="../src/images/800x800_card-image-03.webp" alt="" srcset="" />
+                        <img className='h-full object-cover ' src={starImg2} alt="" srcset="" />
                     </div>
 
                 </div>

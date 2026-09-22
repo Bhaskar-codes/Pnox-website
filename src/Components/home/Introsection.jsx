@@ -1,5 +1,6 @@
 import React from 'react'
 import {ArrowUpRight} from 'lucide-react'
+import bgImage from "../../images/92596243557cdeaa2762c878e34473de.jpg"
 
 const Introsection = () => {
   return (
@@ -7,7 +8,7 @@ const Introsection = () => {
         <div className='relative w-[85vw] h-[80vh] border-2 mt-12 border-[var(--text)] overflow-hidden'>
             <img 
             className='absolute object-cover opacity-85 brightness-40 inset-0 h-full w-full'
-            src="../src/images/92596243557cdeaa2762c878e34473de.jpg" alt="" srcset="" />
+            src={bgImage} alt="" srcset="" />
 
             <div className='relative z-10 h-full  flex items-center justify-center text-white '>
                 <div className='text-center flex flex-col items-center gap-16 '>

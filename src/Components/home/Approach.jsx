@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/all'
 import { useLayoutEffect } from 'react'
 import { NavContext } from '../Navbar/NavContext'
 import { useContext } from 'react'
+import heroImg from "../../images/03_hero-img.webp"
 
 
 gsap.registerPlugin(ScrollTrigger)
@@ -65,7 +66,7 @@ const Approach = () => {
 
   {/* box2 */}
       <div className='approach-item grid items-center  grid-cols-[1fr_2fr] h-[5rem]  '>
-        <img className='approach-img h-[70px] w-[70px]' src="../src/images/03_hero-img.webp" alt="" srcset="" />
+        <img className='approach-img h-[70px] w-[70px]' src={heroImg} alt="" srcset="" />
         <div className='approach-text flex gap-16 font-[font1]'>
             <h3 className='text-3xl text-nowrap font-bold'>Faster Delivery</h3>
             <p className='text-xl max-w-[40rem] leading-9'>Accelerate your launch timelines with our dedicated and
@@ -77,7 +78,7 @@ agile remote teams ready to build and scale.</p>
      {/* box3 */}
 
       <div className='approach-item grid items-center  grid-cols-[1fr_2fr] h-[5rem]  '>
-        <img className='approach-img h-[70px] w-[70px]' src="../src/images/03_hero-img.webp" alt="" srcset="" />
+        <img className='approach-img h-[70px] w-[70px]' src={heroImg} alt="" srcset="" />
         <div className='approach-text flex gap-13 font-[font1]'>
             <h3 className='text-3xl text-nowrap font-bold'>Client Retention</h3>
             <p className='text-xl max-w-[40rem] leading-9'>Delivering quality software builds lasting trust and
@@ -86,7 +87,7 @@ long-term partnerships with clients worldwide.</p>
          </div>
   <span className="border-b-2 h-10 border-black"></span>
       <div className='approach-item grid items-center  grid-cols-[1fr_2fr] h-[5rem]  '>
-        <img className='approach-img h-[70px] w-[70px]' src="../src/images/03_hero-img.webp" alt="" srcset="" />
+        <img className='approach-img h-[70px] w-[70px]' src={heroImg} alt="" srcset="" />
         <div className='approach-text flex gap-16 font-[font1]'>
             <h3 className='text-3xl  font-bold'>Process Transparency</h3>
             <p className='text-xl max-w-[40rem] leading-9'>Stay updated at every stage of your project with our
