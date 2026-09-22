@@ -63,7 +63,7 @@ useLayoutEffect(() => {
 }, [])
 
   return (
-    <section ref={contref} className='h-[90vh] mt-20  w-full overflow-hidden  '>
+    <section ref={contref} className='h-[90vh] mt-[5rem]  w-full overflow-hidden  '>
         <div className='footer-main grid grid-cols-3 text-[var-(--text)] gap-8 h-full pb-10 pl-10 pr-10'>
             {/* box1 */}
             <div className=' rounded-4xl bg-[#ffffffd7] h-full gap-5 grid  grid-rows-[2fr_0.2fr]'>
