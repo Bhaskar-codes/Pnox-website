@@ -38,7 +38,7 @@ useLayoutEffect(() => {
     <div className=' relative '>
       <div 
       ref={navRef}
-      className=' nav-box fixed top-5 right-16 z-[110] h-[50rem] w-[90vw] grid grid-cols-2 rounded-[60px] bg-black transition-transform duration-500
+      className=' nav-box fixed top-5 right-16 z-[110] h-[50rem] w-[60vw] grid grid-cols-2 rounded-[60px] bg-black transition-transform duration-500
       '
       >
         <div className='  overflow-hidden  text-white p-10  '>
